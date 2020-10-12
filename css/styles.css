@@ -5,21 +5,62 @@
 /* лого акцент  #2196F3;
 */
 /* белый #FFFFFF; */
-/* белый прозрачный  (255, 255, 255, 0.6);*/
+/* белый прозрачный  rgba(255, 255, 255, 0.6);
+*/
 /* цвет основного фона #E5E5E5; */
 /* вторичный цвет фона #F5F4FA;*/
 /* фон footer #2F303A; */
 
 body {
   background-color: #e5e5e5;
-  color: #212121;
 }
-ul {
-  list-style: none;
-}
+/* site nav */
 .logo {
   color: #2196f3;
 }
-.span-logo {
+.logo-header {
   color: black;
+}
+.logo-footer {
+  color: #ffffff;
+}
+
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+/* contact */
+.link-contact {
+  color: rgba(255, 255, 255, 0.6);
+}
+.link-contact:hover,
+.link-contact:focus {
+  color: #2196f3;
+}
+.contact {
+  color: #ffffff;
+}
+/* hero */
+.hero,
+.button {
+  color: #ffffff;
+}
+
+/* sections titles (h2-h3) */
+.section-features,
+.section-title,
+.title-team {
+  color: #212121;
+}
+/* features */
+.feature-list .title {
+  color: #757575;
+}
+/* team */
+.team-list .title {
+  color: #757575;
 }
