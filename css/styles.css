@@ -64,3 +64,14 @@ body {
 .team-list .title {
   color: #757575;
 }
+/* portfolio */
+.filters-title {
+  color: #212121;
+}
+.filters-title:hover,
+.filters-title:focus {
+  color: #ffffff;
+}
+.example-list {
+  color: #757575;
+}
