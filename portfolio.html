@@ -3,57 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Портфолио</title>
+    <link rel="stylesheet" href="./css/portfolio.css" />
   </head>
   <body >
     <!-- шапка сайта -->
     <header>
       <nav>
         <a href="index.html" class="logo">Web<span class="logo-header">Studio</span></a>
-        <ul class="site-nav">
+        <ul>
           <li>
-            <a href="index.html" class="link
-                ">Студия</a>
+            <a href="index.html" class="link-nav">Студия</a>
           </li>
           <li>
-            <a href="./portfolio.html" class="link
-                ">Портфолио</a>
+            <a href="./portfolio.html" class="link-nav">Портфолио</a>
           </li>
           <li>
-            <a href="#contact" class="link
-                ">Контакты</a>
+            <a href="#contact" class="link-nav">Контакты</a>
           </li>
         </ul>
       </nav>
-      <address class="contact">
+      <address>
         <a href="mailto:info@devstudio.com" class="link-contact">info@devstudio.com</a>
         <a href="tel:+380961111111" class="link-contact">+38 096 111 11 11</a>
       </address>
     </header>
-    <!-- портфолио -->
-    <section>
-      <!-- h2 filters -->
-      <ul class="filters"
-        <li><a href="" class="filters-title">Все</a></li>
-        <li><a href="" class="filters-title">Веб-сайты</a></li>
-        <li><a href="" class="filters-title">Приложения</a></li>
-        <li><a href="" class="filters-title">Дизайн</a></li>
-        <li><a href="" class="filters-title">Маркетинг</a></li>
-      </ul>
-    </section>
-    <section class="section">
-      <!-- h2 examples-of-works -->
-        <ul class="examples">
+    <main>
+      <section>
+        <h2 hidden>Фильтры</h2>
+        <ul>
+         <li><button type="button" class="filters filter-bg">Все</button></li>
+         <li><button type="button" class="filters">Веб-сайты</button></li>
+         <li><button type="button" class="filters">Приложения</button></li>
+         <li><button type="button" class="filters">Дизайн</button></li>
+         <li><button type="button" class="filters">Маркетинг</button></li>
+       </ul>
+      </section>
+      <section>
+       <h2 hidden>Примеры работ</h2>
+       <ul>
           <li>
-            <img
+           <img
               src="./images/portfolio/card-1.jpg"
               alt="пример работы веб сайта"
               width="370"
               height="294"
             />
-            <h3 class="section-title">Технокряк</h3>
-            <p class="example-list">Веб-сайт</p>
+            <h3 class="title">Технокряк</h3>
+            <p class="list">Веб-сайт</p>
+            
           </li>
           <li>
             <img
@@ -62,8 +60,8 @@
               width="370"
               height="294"
             />
-            <h3 class="section-title">Постер New Orlean vs Golden Star</h3>
-            <p class="example-list">Дизайн</p>
+            <h3 class="title">Постер New Orlean vs Golden Star</h3>
+            <p class="list">Дизайн</p>
           </li>
           <li>
             <img
@@ -72,8 +70,8 @@
               width="370"
               height="294"
             />
-            <h3 class="section-title">Ресторан Seafood</h3>
-            <p class="example-list">Приложение</p>
+            <h3 class="title">Ресторан Seafood</h3>
+            <p class="list">Приложение</p>
           </li>
           <li>
             <img
@@ -82,8 +80,8 @@
               width="370"
               height="294"
             />
-            <h3 class="section-title">Проект Prime</h3>
-            <p class="example-list">Маркетинг</p>
+            <h3 class="title">Проект Prime</h3>
+            <p class="list">Маркетинг</p>
           </li>
           <li>
             <img
@@ -92,8 +90,8 @@
               width="370"
               height="294"
             />
-            <h3 class="section-title">Проект Boxes</h3>
-            <p class="example-list">Приложение</p>
+            <h3 class="title">Проект Boxes</h3>
+            <p class="list">Приложение</p>
           </li>
           <li>
             <img
@@ -102,8 +100,8 @@
               width="370"
               height="294"
             />
-            <h3 class="section-title">Inspiration has no Borders</h3>
-            <p class="example-list">Веб-сайт</p>
+            <h3 class="title">Inspiration has no Borders</h3>
+            <p class="list">Веб-сайт</p>
           </li>
           <li>
             <img
@@ -112,8 +110,8 @@
               width="370"
               height="294"
             />
-            <h3 class="section-title">Издание Limited Edition</h3>
-            <p class="example-list">Дизайн</p>
+            <h3 class="title">Издание Limited Edition</h3>
+            <p class="list">Дизайн</p>
           </li>
           <li>
             <img
@@ -122,8 +120,8 @@
               width="370"
               height="294"
             />
-            <h3 class="section-title">Проект LAB</h3>
-            <p class="example-list">Маркетинг</p>
+            <h3 class="title">Проект LAB</h3>
+            <p class="list">Маркетинг</p>
           </li>
           <li>
             <img
@@ -132,18 +130,18 @@
               width="370"
               height="294"
             />
-            <h3 class="section-title">Growing Business</h3>
-            <p class="example-list">Приложение</p>
+            <h3 class="title">Growing Business</h3>
+            <p class="list">Приложение</p>
           </li>
         </ul>
     </section>
-    
+  </main>
 
     <footer id="contact">
       <!-- контактніе данніе -->
       <a href="index.html" class="logo">Web<span class="logo-footer">Studio</span></a>
       <address class="contact">г. Киев, пр-т Леси Украинки, 26</address>
-      <address class="contact">
+      <address>
         <a href="mailto:info@devstudio.com" class="link-contact">info@devstudio.com</a>
         <a href="tel:+380961111111" class="link-contact">+38 096 111 11 11</a>
       </address>

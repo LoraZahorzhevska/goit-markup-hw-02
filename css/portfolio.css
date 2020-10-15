@@ -1,4 +1,3 @@
-/* вторичный цвет фона #F5F4FA;*/
 /* фон footer #2F303A; */
 
 body {
@@ -38,21 +37,16 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-/* hero */
-.hero-title,
-.button {
-  color: var(--white);
-}
-
-.button {
-  background-color: var(--accent-color);
-}
-
-/* all titles (h2-h3) */
-.title {
+/* examples+filters */
+.title,
+.filters {
   color: var(--title-text-color);
 }
-/*text*/
-.text {
+
+.list {
   color: var(--primary-text-color);
+}
+
+.filter-bg {
+  background-color: var(--accent-color);
 }
