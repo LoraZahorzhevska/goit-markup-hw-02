@@ -42,6 +42,11 @@ body {
   line-height: 1.714;
   letter-spacing: 0.03em;
 }
+
+.list {
+  list-style: none;
+  text-decoration: none;
+}
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
@@ -66,6 +71,7 @@ body {
 }
 
 .logo,
+.active,
 .link-nav:hover,
 .link-nav:focus,
 .link-contact:hover,
@@ -99,6 +105,14 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+}
+
+.footer {
+  background-color: var(--dark-bg);
+}
+
+.header {
+  background-color: var(--white);
 }
 
 /* hero */

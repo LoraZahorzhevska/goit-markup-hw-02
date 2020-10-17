@@ -40,6 +40,12 @@ body {
   line-height: 1.714;
   letter-spacing: 0.03em;
 }
+
+.list {
+  list-style: none;
+  text-decoration: none;
+}
+
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
@@ -48,6 +54,7 @@ body {
   --dark-bg: #2f303a;
 }
 /* header+footer */
+
 .link-nav,
 .link-contact {
   color: var(--title-text-color);
@@ -63,6 +70,7 @@ body {
 }
 
 .logo,
+.active,
 .link-nav:hover,
 .link-nav:focus,
 .link-contact:hover,
@@ -91,12 +99,21 @@ body {
 }
 
 .logo {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+
+.footer {
+  background-color: var(--dark-bg);
+}
+
+.header {
+  background-color: var(--white);
+}
+
 /* examples+filters */
 .title,
 .filters {
@@ -113,6 +130,11 @@ body {
   letter-spacing: 0.03em;
 }
 
+.filters:hover,
+.filters:focus {
+  color: var(--white);
+}
+
 .title {
   font-weight: 700;
   font-size: 18px;
@@ -120,7 +142,7 @@ body {
   letter-spacing: 0.06em;
 }
 
-.list {
+.content {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.875;
