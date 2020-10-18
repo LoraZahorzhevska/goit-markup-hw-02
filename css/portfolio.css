@@ -133,6 +133,7 @@ body {
 .filters:hover,
 .filters:focus {
   color: var(--white);
+  background-color: var(--accent-color);
 }
 
 .title {
@@ -147,8 +148,4 @@ body {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
-}
-
-.filter-bg {
-  background-color: var(--accent-color);
 }
